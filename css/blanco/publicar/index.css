@@ -1,0 +1,33 @@
+.tab{width:94%;margin:0 auto;margin-bottom:1vw;display:block;font-weight:600;padding:2vw}
+.tab .select:after{line-height: 3vw;}
+.tab input[type="text"],.tab input[type="tel"],.tab input[type="email"]{width:28.4%;margin-bottom:2vw;float:left;}
+.tab input[type="text"],.tab input[type="tel"]{margin-right:1vw}
+.tab input[name="direccion"]{width:97.5%;}
+.tab input[type=checkbox]+label:before{border:double .5vw #dadada;-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;line-height:2vw}
+.tab input[type=checkbox]+label:before,.tab input[type=radio]+label:before{height:3vw;width:3vw;font-size:3vw;}
+.tab textarea{height:25vw;width:97.5%;margin-top:1vw;margin-bottom:1vw;}
+.tab .fa{padding: .6vw;
+    float: left;
+    font-size: 1.5vw;
+    height: 3vw;
+    background: #e7eaef;
+    position: relative;
+    z-index: 9;
+    left: .1vw;
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) inset;
+    border-bottom: rgba(0, 0, 0, 0.1) solid .1vw;
+    pointer-events: none;}
+.tres{width:26%!important;margin-right:1vw;margin-bottom:2vw}
+.ch{float:right;vertical-align:bottom;margin-bottom:.5vw;margin-right:1vw;position:relative;right:16vw}
+.inform{width:76%;background-image:url(/imagenes/sombrac.jpg);background-repeat:no-repeat;background-position:bottom;margin:2vw auto;padding:1vw;background-size:contain;font-weight:600}
+#enviar{position:relative;left:80%;}
+.tab textarea,.tab input[type="text"],.tab input[type="tel"],.tab input[type="email"],.tab select{border-bottom: solid 1px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+    background: #e7eaef;
+    position: relative;}
+.btn{display:inline-block;background-color:#83a4e2;text-decoration:none;color:#fff;border-radius:.2vw;cursor:pointer;border-radius: 100%;-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05),4px 4px 0 0 rgba(51,51,51,0.05); -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05),4px 4px 0 0 rgba(51,51,51,0.05);box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05),4px 4px 0 0 rgba(51,51,51,0.05);padding: .6vw 0;text-align: center;
+    width: 7.969vw;}

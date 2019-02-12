@@ -1,0 +1,28 @@
+.ba{background:url(/imagenes/pattern_footer.gif);background-repeat:repeat-x,no-repeat;background-position:bottom;background-color:#eee}
+.frame{width:100%;display:inline-block;height:28vw;float:left;border:solid .2vw #FFF;margin:5vw 0}
+.informa{width:38vw;float:left}
+.informa .informa{margin:0 auto;width:40vw;margin-top:1vw}
+.informa .div1,.informa .div2{float:left;width:17vw;color:#396172;-moz-filter:drop-shadow(.1vw .2vw .1vw #777);-ms-filter:drop-shadow(.1vw .2vw .1vw #777);-o-filter:drop-shadow(.1vw .2vw .1vw #777);filter:drop-shadow(.1vw .2vw .1vw #777);font-weight:600}
+.informa .div1 div,.informa .div2 div{background-color:rgba(246,246,246,1);margin:0 .5vw .5vw;height:5vw;background-image:url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg),url(/imagenes/edificio.png);background-repeat:no-repeat;background-position:top,bottom,0 0;background-size:contain,contain,cover;-webkit-filter:drop-shadow(.1vw .1vw .1vw #777);-moz-filter:drop-shadow(.1vw .2vw .1vw #777);-ms-filter:drop-shadow(.1vw .2vw .1vw #777);-o-filter:drop-shadow(.1vw .2vw .1vw #777);filter:drop-shadow(.1vw .2vw .1vw #777)}
+.peque{text-indent:4.4vw;position:relative;top:-1vw}
+.informa .div1 .fa,.informa .div2 .fa{font-size:3vw;color:#61818e;vertical-align:middle;text-align:center;border-radius:2vw;width:4vw;position:relative;margin-bottom:.5vw;top:1vw}
+.informa .div2{width:20vw}
+.informa .div2 .fa{margin-bottom:1.6vw}
+.contactoexacto{width:33vw;height:16vw;float:left;margin-bottom:5vw;display:inherit;padding-left:1.1vw}
+.formulario{width:100%;float:left}
+.formulario h6{background-image:url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg);background-color:rgba(218,218,218,0.25);background-repeat:no-repeat;background-position:top,bottom;padding:.5vw;box-shadow:.063em .063em 2px rgba(0,0,0,0.2)}
+.contactoexacto input[type=email],.contactoexacto input[type=tel],.contactoexacto input[type=text]{text-indent:1vw;clear:both;background-color:#fefefe;display:block;height:2.6vw;padding:.1vw .2vw;margin-bottom:.3vw;width:14vw;border:1px outset #61818e;margin-bottom:.5vw;position:relative;float:left}
+textarea::-webkit-input-placeholder,input::-webkit-input-placeholder{color:#61818e;font-weight:600;font-size:.8vw;padding-left:.5vw}
+textarea:-moz-placeholder,input:-moz-placeholder{color:#61818e;font-weight:600;font-size:.8vw;padding-left:.5vw}
+textarea:-ms-input-placeholder,input:-ms-input-placeholder{color:#61818e;font-weight:600;font-size:.8vw;padding-left:.5vw}
+textarea::-webkit-input-placeholder{padding:.5vw}
+textarea:-moz-placeholder{padding:.5vw}
+textarea-ms-input-placeholder{padding:.5vw}
+.contactoexacto textarea{resize:none;height:11.9vw;width:17vw;position:relative;border:1px outset #61818e;background:#fefefe;margin-left:.5vw}
+.exactoboton{width:98%;height:3vw;margin:0 auto;margin-top:.5vw;display:table}
+.exactoboton input,.exactoboton button{position:relative;float:right;margin-right:3%;color:#fff}
+.exactoboton input{padding:.5vw 1vw}
+.exactoboton:hover{color:#8598c6}
+.sbmButton,.btn{background:linear-gradient(bottom,#396172 30%,#fff 380%)!important;background:-webkit-linear-gradient(bottom,#7696a2 30%,#fff 380%)!important;background:-moz-linear-gradient(bottom,#396172 30%,#fff 380%)!important;background:-o-linear-gradient(bottom,#396172 30%,#fff 380%)!important;text-shadow:0 0 .063em #000}
+/**/
+.enmarcado{margin:0 1vw 1vw}

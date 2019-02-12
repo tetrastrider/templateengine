@@ -1,0 +1,15 @@
+.div{width:80%;margin:0 auto;padding:5vw 4vw;display:block;background:#eee}
+.ba{background:url(/imagenes/pattern_footer.gif);background-repeat:repeat-x,no-repeat;background-position:bottom;background-color:#eee}
+.tucked-corners-top{position:relative;width:100%;min-height:15vw;padding:1.5vw;box-shadow:0 1.2vw .6vw -1.2vw rgba(0,0,0,.5);background:#fff;padding:4vw 4vw 4vw 2vw}
+[class*='tucked-corners-']::before,[class*='tucked-corners-']::after{content:'';position:absolute;height:2vw;width:6vw;box-shadow:0 .4vw .85vw -.5vw rgba(0,0,0,.5);box-shadow:none\9}
+.tucked-corners-top::before,.tucked-corners-top::after{top:-.1vw}
+.tucked-corners-bottom::before,.tucked-corners-bottom::after{bottom:-.6vw}
+.tucked-corners-top::before,.tucked-corners-bottom::before{left:-2.6vw}
+.tucked-corners-top::after,.tucked-corners-bottom::after{right:-2.5vw}
+.tucked-corners-top::before{transform:rotate(-45deg);background:#eee}
+.tucked-corners-top::after{transform:rotate(45deg);background:#eee}
+.tucked-corners-bottom::before{transform:rotate(-135deg);background:#eee}
+.tucked-corners-bottom::after{transform:rotate(135deg);background:#eee}
+.ba img{max-width:100%}
+.ba h6{text-indent:.5vw;color:#e5a876}
+.ba p{padding:0 1vw;color:#61818e;word-spacing:.2vw;margin-bottom:1vw}

@@ -1,0 +1,30 @@
+.varios{background:url(/imagenes/pattern_footer.gif);background-repeat:repeat-x,no-repeat;background-position:bottom;background-color:#eee}
+textarea.form-input{height:15vw;overflow:auto;width:100%;position:relative;border-top:inset #eee .15vw;border-left:inset #fff .15vw;border-bottom:inset 1px #ccc;border-right:inset 1px #ddd;resize:none}
+label.custom-select{position:relative;display:inline-block}
+.custom-select select{display:inline-block;padding:.1vw;margin:0;outline:0;background:#f8f8f8;-webkit-appearance:none;cursor:pointer;height:1.4vw}
+.custom-select:after{background:linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(7, 58, 79, 0.9)',endColorstr='#fff',GradientType=0);background:-ms-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);background:-webkit-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);background:-moz-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);background:-o-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%)}
+.m.custom-select:after{content:"mostrar";position:absolute;top:0;right:0;bottom:0;padding:0 .2vw;color:#fff;pointer-events:none;height:1.4vw;line-height:1.5vw;padding-left:1vw}
+.n.custom-select:after{content:"ordenar por";position:absolute;right:0;bottom:0;padding:0 .2vw;color:#fff;pointer-events:none;height:1.4vw;line-height:1.5vw}
+.no-pointer-events .custom-select:after{content:none}
+.pager{list-style:none;margin:1vw auto;position:relative;text-align:center;*zoom:1;width:100%;padding:0;background-color:rgba(240,240,240,0.5);height:2.15vw;display:inline-block;background-image:url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg);background-repeat:no-repeat;background-position:center top,center bottom;padding:.2vw 0 .2vw 0}
+.pager:after,.pager:before{content:"";display:table}
+.pager:after{clear:both}
+.pager li{display:inline;font-weight:700}
+.pager li>a,.pager li>span{color:#204e61;display:inline-block;padding:.1vw .1vw;vertical-align:-webkit-baseline-middle}
+.pager li>a:hover{background-color:#396172;color:#fff;text-decoration:none;padding:.4vw .1vw;background:linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(7, 58, 79, 0.9)',endColorstr='#fff',GradientType=0);background:-ms-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);background:-webkit-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);background:-moz-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);background:-o-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%)}
+.pager .next>a,.pager .next>span{float:right}
+.pager .previous>a,.pager .previous>span{float:left}
+.pager .disabled>a,.pager .disabled>a:hover,.pager .disabled>span{background-color:#fff;color:#434343;cursor:default}
+.lis a{background-color:#204E61!important;color:#fff!important;padding:.4vw!important;background:linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(7, 58, 79, 0.9)',endColorstr='#fff',GradientType=0);background:-ms-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);background:-webkit-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);background:-moz-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%);background:-o-linear-gradient(bottom,rgba(7,58,79,0.9) 30%,#fff 380%)}
+.h6{margin:.5vw 0;color:#e19b62}
+.sbmButton,.btn{background:linear-gradient(bottom,#396172 30%,#fff 380%)!important;background:-webkit-linear-gradient(bottom,#7696a2 30%,#fff 380%)!important;background:-moz-linear-gradient(bottom,#396172 30%,#fff 380%)!important;background:-o-linear-gradient(bottom,#396172 30%,#fff 380%)!important;text-shadow:0 0 .063em #000}
+.sombra{background-image:url(/imagenes/body-bottom-shadow.png);background-position:0 28.5vw;background-repeat:no-repeat;background-size:contain;width:33.3%;float:left;padding:.25vw}
+.acticulo{color:#204e61;margin:.3vw auto;height:28vw;padding:.2vw 0;position:relative;width:100%;background-image:url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg);background-color:rgba(218,218,218,0.25);background-repeat:no-repeat,no-repeat;background-position:0 0,bottom;display:inline-block;background-size:contain,contain}
+.imagenarticulo{width:100%;height:15.4vw}
+.imgb{height:15vw;width:100%;position:relative;padding:.1vw;background:whitesmoke;border:solid 1px #ccc}
+.contenidoarticulo{height:12vw;width:100%;display:block}
+.contenidoarticulo h6{padding-left:1vw;margin-top:.5vw;font-weight: 900;}
+.contenidoarticulo p{padding-left:1vw}
+.acticulo .btn{position:relative;top:2vw;padding:.2vw 2vw .2vw .5vw}
+/******************************************/
+

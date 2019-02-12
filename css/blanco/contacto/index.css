@@ -1,0 +1,32 @@
+.frame{width:100%;display:inline-block;height:28vw;float:left;border:solid .2vw #FFF;margin:5vw 0}
+.informa{width:50%;float:left}
+.informa a:hover{color:#9cb7e8;}
+.informa .informa{margin:0 auto;width:40vw;margin-top:1vw}
+.informa .div1,.informa .div2{float:left;width:50%;font-weight:600}
+.informa .div1 div,.informa .div2 div{margin:0 .5vw .5vw;padding:0 1vw;height:5.5vw;background-image:url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg),url(/imagenes/edificio.png);background-repeat:no-repeat;background-position:top,bottom,0 0;background-size:contain,contain,cover;}
+.peque{text-indent:4.4vw;position:relative;top:-1vw}
+.informa .div1 .fa,.informa .div2 .fa{font-size:3vw;vertical-align:middle;text-align:center;border-radius:2vw;width:4vw;position:relative;margin-bottom:.5vw;top:1vw}
+.informa .div2 .fa{margin-bottom:1.6vw}
+.contactoexacto{width:50%;height:16vw;float:left;margin-bottom:5vw;display:inherit;padding-left:1.1vw}
+.formulario{width:100%;float:left}
+.contactoexacto input[type=email],.contactoexacto input[type=tel],.contactoexacto input[type=text]{text-indent:1vw;clear:both;display:block;padding:.1vw .2vw;width:20vw;margin-bottom:.5vw;position:relative;float:left;margin-left: 1.5vw;border-bottom: solid 1px #dadada;-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;background:#e7eaef;}
+.contactoexacto textarea{height:13.5vw;width:20vw;position:relative;margin-left:.5vw;border-bottom: solid 1px #dadada;-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;background:#e7eaef;}
+.exactoboton{width:98%;margin:0 auto;margin-top:.5vw;display:table}
+.exactoboton input,.exactoboton button{position:relative;float:right;margin-right:3%;}
+.exactoboton:hover{color:#8598c6}
+/**/
+.enmarcado{text-align:center;margin:0 1vw 1vw;display:block;background-image:url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg);background-color:rgba(218,218,218,0.25);background-repeat:no-repeat;background-position:top,bottom;padding:.5vw;box-shadow:0 .063em 2px rgba(0,0,0,0.2)}
+.btn{display:inline-block;background-color:#83a4e2;text-decoration:none;color:#fff;border-radius:.2vw;cursor:pointer;border-radius: 100%;-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05),4px 4px 0 0 rgba(51,51,51,0.05); -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05),4px 4px 0 0 rgba(51,51,51,0.05);box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05),4px 4px 0 0 rgba(51,51,51,0.05);padding: .6vw 0;text-align: center;
+    width: 7.969vw;}
+@media (max-width: 400px) {
+  .frame{height:100vw
+  }
+
+  .informa{width:100%}
+
+  .contactoexacto{width:100%;margin: 5vw 0;}
+
+  .contactoexacto input[type=email], .contactoexacto input[type=tel], .contactoexacto input[type=text]{width: 47%;height: 4vw}
+
+  .contactoexacto textarea{width:50%;height: 17.5vw}
+}

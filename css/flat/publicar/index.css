@@ -1,0 +1,14 @@
+.ba{background:url(/imagenes/pattern_footer.gif);background-repeat:repeat-x,no-repeat;background-position:bottom;background-color:#eee}
+.tab{width:94%;color:#204e61;margin:0 auto;margin-bottom:1vw;display:block;font-weight:600;padding:2vw}
+.tab select{color:#61818e;width:18vw;background-color:#fff;border:1px solid #073a4f;margin:0 0 1vw;height:3vw;margin-right:1vw;border-left:outset #a0b3bb .15vw;border-top:outset #61818e .15vw;border-bottom:inset 1px #ccc;border-right:outset 1px #eff2f4;font-weight:600;padding-left: .5vw;}
+.tab .select:after{height: 3vw}
+.tab input[type="text"],.tab input[type="tel"],.tab input[type="email"]{background-color:#fafafa;width:28.4%;border-top:outset #61818e .15vw;border-left:0;border-bottom:inset 1px #ccc;border-right:outset 1px #eff2f4;margin-bottom:2vw;float:left;height:3vw}
+.tab input[type="text"],.tab input[type="tel"]{margin-right:1vw}
+.tab input[name="direccion"]{width:100%;border-left:inset #fff .15vw;padding-left: .5vw;}
+.tab input[type=checkbox]+label:before,.tab input[type=radio]+label:before{height:3vw;width:3vw;font-size:3vw;}
+.tab input[type=checkbox]+label:before{border:solid .1vw #61818e;line-height:3vw}
+.tab textarea{height:25vw;overflow:auto;width:100%;background-color:#fafafa;resize:none;margin-top:1vw;border-left:outset #a0b3bb .15vw;border-top:outset #61818e .15vw;border-bottom:inset 1px #ccc;border-right:outset 1px #eff2f4;margin-bottom:1vw}
+.tab .fa{background:#fafafa;padding:.29vw .5vw;border-top:outset #61818e .15vw;border-left:outset #a0b3bb .15vw;border-bottom:inset 1px #ccc;border-right:0;float:left;font-size:1.5vw;color:#61818e;height:3vw}
+.tres{width:26%!important;margin-right:1vw;margin-bottom:2vw}
+.ch{float:right;vertical-align:bottom;margin-bottom:.5vw;margin-right:1vw;position:relative;right:16vw}
+.sbmButton,.btn{background:linear-gradient(bottom,#396172 30%,#fff 380%)!important;background:-webkit-linear-gradient(bottom,#7696a2 30%,#fff 380%)!important;background:-moz-linear-gradient(bottom,#396172 30%,#fff 380%)!important;background:-o-linear-gradient(bottom,#396172 30%,#fff 380%)!important;text-shadow:0 0 .063em #000}

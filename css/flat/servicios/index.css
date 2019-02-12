@@ -1,0 +1,24 @@
+.div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5vw 4vw;
+    display: block;
+    background: #eee;
+}
+.ba{background:url(/imagenes/pattern_footer.gif);background-repeat:repeat-x,no-repeat;background-position:bottom;background-color:#eee}
+#ser{position:relative;width:100%;display: inline-block;padding:2vw;background:#fff;float:none;background-image: url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg);
+    background-repeat: no-repeat;
+    background-position: top,bottom;
+    background-size: contain,contain;}
+#contener{width:100%;display:inline-block;margin: 0 0 5vw;}
+#contener img{float:left;padding:0 1vw 0 1vw;}
+article{padding: 1vw;
+    width: 50%;
+    float: left;}
+article img{width: 100%;
+    float: right;
+    padding: 1vw;}
+article h6{padding-top: 2vw;
+    float: left;width: 100%;padding: 0 1vw;}
+article p{float: left;width:100%;padding: 1vw;
+    text-align: justify;}

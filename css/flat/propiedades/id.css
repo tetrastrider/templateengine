@@ -1,0 +1,93 @@
+.descripcion,.sbox{padding:2vw;background:#fff;background-image: url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg);
+    background-repeat: no-repeat;
+    background-position: top,bottom;
+    background-size: contain,contain;}
+
+.modal{position:relative;pointer-events:none;display:none;opacity:0;visibility:hidden;position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background:rgba(0,0,0,0.95);z-index:9}
+.modal:target{display:block;opacity:1;pointer-events:auto;visibility:visible;background: rgb(237, 237, 237);}
+.close .fa{font-size:2vw;margin-left: 5vw}
+.fotos{padding:.2vw 0;text-align:center;width:100%;margin:0 auto}
+.imgr{max-width: 60vw;outline:solid .1vw #c7c7c7;padding: .1vw;margin: .5vw;border: 5px solid #fafafa;box-shadow: 1px 1px 5px rgba(0,0,0,0.7);}
+.imgr:hover{outline: solid .1vw #ebbb94;}
+.hidenform{position:relative;width:5.5vw;margin:0 0 0 7vw;float:left}
+.imagenesc{width:73%;display:block;margin:0 auto}
+.imagenesc .fa-info{cursor:pointer;padding:.1vw 1.4vw;margin-left:5vw;float:left;border:solid .5vw #396172;border-radius:1vw;font-size:4vw;color:#396172;background-color:#eee}
+.imagenesc .fa-envelope-o{cursor:pointer;padding:.1vw .5vw;margin-left:4.5vw;margin-right:8vw;float:left;border:solid .5vw #396172;border-radius:1vw;font-size:4vw;color:#396172;background-color:#eee}
+.imagenesc .fa-print{position:relative;float:left;cursor:pointer;padding:.1vw .5vw;float:left;border:solid .5vw #396172;border-radius:1vw;font-size:4vw;color:#396172;background-color:#eee}
+.etiq{width:73%;display:block;height:4vw;position:relative;margin:0 auto;padding:1vw 0}
+.etiq p{margin:0 2.8vw;color:#396172;margin-top:.2vw;display:inline-block;font-weight:600}
+
+.formc{overflow:hidden;padding:0 1vw 1vw}
+.cam .fa,.column .fa{background:#FFF;padding: .29vw .5vw;border-top: inset #eee .15vw;    border-left: inset #fff .15vw;    border-bottom: inset 1px #ccc;border-right: 0;float: left;font-size: 1.5vw;color: #ccc;}
+.cam{padding:.5vw;width: 70%;display: block;margin: 0 auto;}
+.cam .form-input{height:30px;margin-bottom:10px;position:relative;padding:6px 10px;width:100%}
+.cam label{margin-left:.5vw}
+.cam input[type='text'],.cam input[type='email']{width: 20vw;height: 2.27vw;margin-bottom:.5vw;float: left;border-top: inset #eee .15vw;    border-left: 0;    border-bottom: inset 1px #ccc;    border-right: inset 1px #ddd;}
+.cam input[type='text'],.cam input[name="remitente"]{margin-right: .5vw}
+.cam textarea{width:100%;resize:none;margin-bottom:.5vw;height: 15vw;}
+.cam textarea[name='destinatario']{height:3vw}
+.cam textarea[name='mensaje']{height: 21vw;}
+.cam input[name='asunto']{border: 0;padding: 1vw;width: 100%;font-weight: 700;color: rgb(97, 129, 142);}
+.cam a[name='dp']{margin-left:.5vw;font-weight: 700;}
+.cam p{margin-bottom:.5vw;font-weight: 700;}
+.cam input[name='remLen']{width: 4vw;padding-left: 1vw;font-weight: 700;margin: 0 5vw 0 2vw;border-radius: 2vw;}
+/**/
+.contactar{background-color: #ededed;padding:0;width: 100%;margin:5vw auto;border-radius: 1vw;}
+.column{margin-bottom:2vw}
+.column input{width: 12.1vw;margin-bottom:.9vw;padding:.5vw .9vw;border-left: 0!important;float: left;height: 2.3vw;}
+.column input[type='email'],.column input[type='text'],.column input[type='tel']{margin-right: 1vw;border-top: inset #eee .15vw;    border-left: inset #fff .15vw;    border-bottom: inset 1px #ccc;    border-right: inset 1px #ddd;}
+.column a{font-weight:600;display: inline-block;margin-bottom: 1vw;}
+.column input[name='remLen']{border-radius:1vw;width:4vw}
+.contact-form{width: 51%;text-align:justify;padding: 1vw;color: #61818e;margin: 0 auto;}
+.contact-form h4{padding:.5vw;background-image: url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg);    background-color: #e5e5e5;    background-repeat: no-repeat;    background-position: top,bottom;    background-size: contain;}
+.contact-form h4 a{float:right;color:#fff;padding: .2vw;}
+textarea.form-input{height:15vw;overflow:auto;width: 100%;position:relative;border-top: inset #eee .15vw;    border-left: inset #fff .15vw;    border-bottom: inset 1px #ccc;    border-right: inset 1px #ddd;resize: none;}
+label.custom-select{position:relative;display:inline-block}
+.imagensimple{height:29.9vw;width:67vw;margin-left:.15vw;float:left}
+.t{color:#da823b;padding: .4vw;margin: .5vw 0;background-image: url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg);    background-color: rgba(218,218,218,0.25);    background-repeat: no-repeat;    background-position: top,bottom;display: inline-block;width: 100%;text-align: center;box-shadow: 0 .063em 2px rgba(0,0,0,0.2);}
+
+.descripcion{margin:0 auto 5vw;width:100%;width: 100%;clear: both;display: inline-block;padding:5vw}
+.sbmButton, .btn{
+    background: linear-gradient(bottom,#396172 30%,#fff 380%)!important;
+    background: -webkit-linear-gradient(bottom,#7696a2 30%,#fff 380%)!important;
+    background: -moz-linear-gradient(bottom,#396172 30%,#fff 380%)!important;
+    background: -o-linear-gradient(bottom,#396172 30%,#fff 380%)!important;
+    text-shadow: 0 0 .063em #000;}
+.ba{background:url(/imagenes/pattern_footer.gif);background-repeat:repeat-x,no-repeat;background-position:bottom;background-color:#eee}
+.sbox{
+    text-align: center;
+    width:35%;
+    float: left;
+    display: inline-block;
+    margin: 1vw .5vw 1vw;
+    }
+.sbox p{font-weight:900;margin: 1vw;
+    display:block;
+    text-transform: lowercase;
+    font-variant: small-caps;}
+#mapu{width:60%;
+    display: inline-block;
+    height: 18vw;margin-bottom: 2vw;
+    border: solid .2vw #FFF;
+    position: relative;
+    margin-right: .5vw;
+    float: left;}
+#espacio,#espacio2{width:33%;
+    float: left;
+    text-align: left;}
+.d{width:48%}
+.sb{width:49%;}
+#espacio2{width:42%}
+.destaca h3, .recient h3, .varios h3 {
+    color: #396172;
+    text-align: center;
+    margin: 1vw 2vw;
+    display: block;
+    background-image: url(/imagenes/sombrac.jpg),url(/imagenes/sombrac.jpg),url(/imagenes/shinecircle.png);
+    background-color: rgba(218,218,218,0.25);
+    background-repeat: no-repeat;
+    background-position: top,bottom;
+    background-size: contain,contain,cover;
+    padding: .5vw;
+    box-shadow: 0 .063em 2px rgba(0,0,0,0.2);
+}
